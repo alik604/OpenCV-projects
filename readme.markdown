@@ -3,11 +3,11 @@
 
 ## Contents
 
-1. Find an ali. Used this [educational source](https://pythonprogramming.net/haar-cascade-face-eye-detection-python-opencv-tutorial/?completed=/mog-background-reduction-python-opencv-tutorial/)
+1. Find an Ali. Used this [educational source](https://pythonprogramming.net/haar-cascade-face-eye-detection-python-opencv-tutorial/?completed=/mog-background-reduction-python-opencv-tutorial/)
 > Facial recognition using a [HAAR cascade](https://en.wikipedia.org/wiki/Haar-like_feature) (Very basic)
 
 2. Can and Bottle recognition
-> Assist with foreigners with the recycling practices in North America  [HAAR cascade](https://en.wikipedia.org/wiki/Haar-like_feature)
+> Assist with foreigners with the recycling practices in North America
 
 3. AIplays GTA V
 > coming soon

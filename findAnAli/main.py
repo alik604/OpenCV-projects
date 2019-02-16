@@ -27,7 +27,7 @@ cap = cv2.VideoCapture(0)
 
 while 1:
     #ret, img = cap.read()
-    img = cv2.imread("ii.jpg")
+    img = cv2.imread("i.jpg")
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     faces = face_cascade.detectMultiScale(gray, 1.3, 5)
 
