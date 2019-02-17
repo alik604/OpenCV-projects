@@ -1,0 +1,60 @@
+img = cv2.imread('1.png',0)
+edges = cv2.Canny(img,100,200)
+
+# plt.subplot(121),plt.imshow(img,cmap = 'gray')
+# plt.title('Original Image'), plt.xticks([]), plt.yticks([])
+# plt.subplot(122),plt.imshow(edges,cmap = 'gray')
+# plt.title('Edge Image'), plt.xticks([]), plt.yticks([])
+# plt.show()
+# print(edges.shape)
+# plt.rcParams['figure.figsize'] = [16, 8]
+# plt.imshow(edges,cmap='gray')
+# plt.show()
+
+
+
+img = cv2.imread('1.png')
+gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+
+edgesImg = cv2.Canny(img,600,600)
+edgesGray = cv2.Canny(gray,200,200)
+
+#ret,thresh = cv2.threshold(gray,127,255,0)
+#im2, contours, hierarchy = cv2.findContours(thresh,cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
+
+
+imgTest1 = img
+ret,thresh = cv2.threshold(gray, 120,255,cv2.THRESH_BINARY)
+contours = cv2.findContours(thresh,cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)[-2]
+for contour in contours:
+   cv2.drawContours(imgTest1, contour, -1, (0, 255, 0), 3)
+#plt.figure()
+#plt.imshow(imgTest1)
+#imgTest1 = imgTest1[:, :, 0]
+
+
+
+## Find outer contours
+
+## Draw
+canvas = np.zeros_like(img)
+cv2.drawContours(canvas , contours, -1, (150, 150, 150), 0)
+#canvas = canvas[:, :, 0]
+
+
+#print(imgTest1.shape)
+#print(canvas.shape)
+
+
+
+
+
+
+sideBySide = np.hstack((imgTest1,canvas))
+cv2.imshow('image',sideBySide)
+
+#cv2.imshow('image',canvas)
+#cv2.imshow('image',gray)
+
+cv2.imwrite( "temp.jpg", canvas );
