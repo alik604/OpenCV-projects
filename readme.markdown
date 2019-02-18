@@ -9,15 +9,23 @@
 2. Can and Bottle recognition
 > Assist with foreigners with the recycling practices in North America
 
-3. AIplays GTA V
+3. Licence Plate OCR
+
+   > given an image of a License plat, output all the text found. 
+   >
+   > I failed to process the image in a way such that pyTesseract-OCR will work. 
+
+4. AIplays GTA V
 > coming soon
 
 
 ## Getting Started
 ```
-GOTO repo\findAnAli
+GOTO repo\Aproject
 
-python main.py
+python main.py  
+
+
 ```
 
 
