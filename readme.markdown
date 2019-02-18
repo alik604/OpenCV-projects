@@ -41,7 +41,7 @@ python main.py
 Pull requests are welcome
 
 ## Comming soon
-+ a *working* Licence Plate OCR
++ A *working* Licence Plate OCR
 + Recycling helper app (paper,cans/bottles;compost;garbage) 
 
 ## License
