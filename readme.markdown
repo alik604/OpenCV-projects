@@ -11,11 +11,14 @@
 
 3. Licence Plate OCR
 
-> given an image of a License plat, output all the text found. 
+> Given an image of a License plate, Output all the text found. 
 > I failed to process the image in a way such that pyTesseract-OCR will work. 
 
 4. AIplays GTA V
 > coming soon
+
+Items 1,2,3 made in a single weekend (feb 16-17, 2019; Hackaton style)
+
 
 
 ## Getting Started
@@ -38,9 +41,8 @@ python main.py
 Pull requests are welcome
 
 ## Comming soon
-+ 1
-+ 2
-+ 3
++ a *working* Licence Plate OCR
++ Recycling helper app (paper,cans/bottles;compost;garbage) 
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
