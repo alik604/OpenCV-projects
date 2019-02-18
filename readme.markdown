@@ -12,6 +12,7 @@
 3. Licence Plate OCR
 
 > Given an image of a License plate, Output all the text found. 
+>
 > I failed to process the image in a way such that pyTesseract-OCR will work. 
 
 4. AIplays GTA V
