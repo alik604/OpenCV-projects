@@ -36,6 +36,7 @@ python main.py
 ## Sample 
 
 1. Find an Ali
+
 ![Error 404](https://github.com/alik604/OpenCV-projects/blob/master/imgs%20for%20readme/findAnAli.PNG)
 
 
