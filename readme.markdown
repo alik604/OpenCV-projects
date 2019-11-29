@@ -1,7 +1,9 @@
 # OpenCV
 > Some quick and dirty "week end" projects over reading break 2019
 
-
+## Status 
+This repo is temporary deprecated, as reading break has ended. I will re-continue when I start cmpt 412 (CV) and cmpt 414 (model based CV)
+In the mean time, I am focusing on Deep Learning and Finance. My CNNs can be found [here](https://github.com/alik604/notebooks)  
 
 ## Contents
 
@@ -12,7 +14,7 @@
 
 > Given an image of a License plate, Output all the text found. 
 >
-> I failed to process the image in a way such that pyTesseract-OCR will work. 
+> I failed to process the image in a way such that pyTesseract-OCR will work consitantly; works ~70% of the time 
 
 3. AIplays GTA V
 
@@ -28,9 +30,7 @@ GOTO repo\Aproject
 
 python main.py  
 
-
 ```
-
 
 
 ## Sample 
@@ -45,11 +45,12 @@ Pull requests are welcome
 
 
 
-
-
 ## Comming soon
 + A *working* Licence Plate OCR
 + Recycling helper app (paper,cans/bottles;compost;garbage) 
++ AIplays GTA V
+
+
 
 
 
