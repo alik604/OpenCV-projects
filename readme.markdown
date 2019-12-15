@@ -14,7 +14,7 @@ In the mean time, I am focusing on Deep Learning and Finance. My CNNs can be fou
 
 > Given an image of a License plate, Output all the text found. 
 >
-> I failed to process the image in a way such that pyTesseract-OCR will work consitantly; works ~70% of the time 
+> I failed to process the image in a way such that pyTesseract-OCR will work consistently; works ~70% of the time 
 
 3. AIplays GTA V
 
